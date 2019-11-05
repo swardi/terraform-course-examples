@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "main" {
-  bucket = "terraform-backend"
+  bucket = "terraform-backend2"
   acl    = "private"
 
   tags = {
